@@ -10,3 +10,4 @@ for i in range(10):
     # check if the number is even
     if num % 2 == 0:
         even += 1         # if even, increment by 1
+        print("The total of even numbers is: ", even)
