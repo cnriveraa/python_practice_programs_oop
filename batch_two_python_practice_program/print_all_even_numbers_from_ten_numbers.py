@@ -11,3 +11,6 @@ for i in range(10):
     if num % 2 == 0:
         even += 1         # if even, increment by 1
         print("The total of even numbers is: ", even)
+
+# Note: The print statement inside the loop will display the count after each input.
+# If you want to display the total count only once after all inputs, move the print statement outside the loop.
