@@ -4,3 +4,6 @@
 # store the numbers in variables num1 and num2
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
+
+# print the product of the two numbers
+print("The product is: ", num1 * num2)
