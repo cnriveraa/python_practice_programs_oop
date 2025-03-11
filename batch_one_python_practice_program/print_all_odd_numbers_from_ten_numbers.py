@@ -10,3 +10,6 @@ for i in range(10):
 # check if the number is odd
     if num % 2 != 0:
         odd += 1    # increment the 'odd' by 1
+
+# print the total count of odd numbers after the loop ends
+print("The total number of odd numbers is: ", odd)
