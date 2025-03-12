@@ -7,13 +7,13 @@ numbers = []
 while True:
     try:
         num = int(input("Enter a number: "))
-        numbers.append(num)
+        numbers.append(num)  # add numbers to the list
     except ValueError:
-        print("Invalid input.")
+        print("Invalid input.")   # error message for non-integers input
         break
 
 # sort the numbers from highest to lowest
-numbers.sort(reverse=True)
+numbers.sort(reverse=True)    # reverse sort function
 
 # display the number from highest to lowest
 if num in numbers:
