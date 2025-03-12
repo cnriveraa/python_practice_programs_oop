@@ -8,6 +8,8 @@ while True:
     try:
         num = int(input("Enter a number: "))    # ask user to input a number
         numbers.append(num)    # add the number to the list
+    
+    except ValueError:
+        print("Invalid input.")     # error message if non-integer input
 
-# error message if non-integer input
 # display lowest number
