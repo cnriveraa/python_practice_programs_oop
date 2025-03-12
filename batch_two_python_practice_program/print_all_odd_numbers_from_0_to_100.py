@@ -2,3 +2,7 @@
 
 # loop the numbers from 0 to 100 with a step of 1
 for i in range(0, 101, 1):
+
+    # check if the number is odd
+    if i % 2 != 0:
+        print(i)
