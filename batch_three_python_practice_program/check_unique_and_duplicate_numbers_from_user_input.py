@@ -8,7 +8,12 @@ while True:
     try: 
         num = int(input("Enter a number: "))    # ask user to input a number
 
-# check if the number is already in the set
-# add unique number to the set
+        # check if the number is already in the set
+        if num in numbers:
+            print("Duplicate")
+        else:
+            print("Unique")
+            numbers.add(num)  # add unique number to the set
+            
 # if input is not integer, print error message
 # exit loop if invalid input
