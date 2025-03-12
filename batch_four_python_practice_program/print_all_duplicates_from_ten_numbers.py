@@ -17,4 +17,8 @@ for i in range(10):
 duplicates = set()
 
 # find duplicates
+for num in numbers:
+    if numbers.count(num) > 1:   # check if the number has duplicates
+        duplicates.add(num)      # add duplicates to the set
+        
 # display duplicates
