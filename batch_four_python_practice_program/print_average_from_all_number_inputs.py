@@ -4,4 +4,12 @@
 numbers = []
 
 # start loop to iterate numbers
+while True: 
+    try:
+        num = int(input("Enter a number: "))
+        numbers.append(num)
+    except ValueError:
+        print("Invalid input.")
+        break
+
 # find the average
