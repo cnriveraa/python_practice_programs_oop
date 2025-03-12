@@ -2,3 +2,6 @@
 
 # initialize an empty list to store the numbers
 numbers = []
+
+# ask the user to input 10 numbers
+for i in range(10):
