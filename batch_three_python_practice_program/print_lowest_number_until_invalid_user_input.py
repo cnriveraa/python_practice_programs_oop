@@ -12,4 +12,6 @@ while True:
     except ValueError:
         print("Invalid input.")     # error message if non-integer input
 
-# display lowest number
+        if len(numbers):
+            print(f"The lowest number is: {min(numbers)}")  # display lowest number
+            break
