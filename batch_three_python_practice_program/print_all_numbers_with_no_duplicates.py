@@ -15,3 +15,8 @@ for i in range(10):
 
 # display all numbers that don't have duplicates
 print("Numbers without duplicates:")
+
+# check if number only appear once on the list
+for num in numbers:
+    if numbers.count(num) == 1:
+        print (num)
