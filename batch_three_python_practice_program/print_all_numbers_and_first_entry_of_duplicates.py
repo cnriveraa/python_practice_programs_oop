@@ -14,3 +14,6 @@ for i in range(10):
 
 # initialize an empty set to track seen numbers
 seen = set()
+
+# display all numbers, showing only the first entry of duplicates
+print("Numbers (duplicates show only once):")
