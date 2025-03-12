@@ -23,5 +23,13 @@ if numbers:
         else:
             count_dict[num] = 1
 
-# find the number with the most duplicates
+    # find the number with the most duplicates
+    most_duplicates_num = None
+    max_count = 0
+
+    for num, count in count_dict.items():
+        if num > max_count:
+            max_count = count
+            most_duplicates_num = num
+
 # display the result
