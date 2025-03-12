@@ -10,6 +10,8 @@ for i in range(10):
             num = int(input("Enter a number: "))
             numbers.append(num)         # add the number to the list
             break                       # exit the loop if input is valid
+        except ValueError:
+            print("Invalid input.")
 
 # display all numbers that don't have duplicates
 print("Numbers without duplicates:")
