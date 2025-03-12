@@ -5,3 +5,6 @@ numbers = []
 
 # ask the user to input 10 numbers
 for i in range(10):
+    while True:  # Loop until valid input is received
+        try:
+            num = int(input("Enter a number: "))
