@@ -7,9 +7,9 @@ numbers = []
 while True:
     try:
         num = int(input("Enter a number: "))
-        numbers.append(num)
+        numbers.append(num)   # add numbers to the list 
     except ValueError:
-        print("Invalid input.")
+        print("Invalid input.")  # error message if non-integer input
         break
 
 # check if any numbers were entered
