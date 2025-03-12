@@ -1,0 +1,4 @@
+#Prog08: Create a program that print all the odd numbers starting from 0 to 100. (Use while loop)
+
+# loop the numbers from 0 to 100 with a step of 1
+for i in range(0, 101, 1):
