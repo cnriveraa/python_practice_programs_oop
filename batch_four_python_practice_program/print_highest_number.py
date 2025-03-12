@@ -13,3 +13,5 @@ while True:
         break
 
 # display the highest number
+if num in numbers:
+    print(f"The highest number is {max(numbers)}.")
