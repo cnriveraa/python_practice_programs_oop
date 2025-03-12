@@ -13,4 +13,6 @@ while True:
         break
 
 # sort the numbers from highest to lowest
+numbers.sort(reverse=True)
+
 # display the number from highest to lowest
