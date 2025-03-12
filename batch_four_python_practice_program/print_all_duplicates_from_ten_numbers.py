@@ -14,5 +14,7 @@ for i in range(10):
             print("Invalid input.")  # print error message
 
 # initialize a set to track duplicates
+duplicates = set()
+
 # find duplicates
 # display duplicates
