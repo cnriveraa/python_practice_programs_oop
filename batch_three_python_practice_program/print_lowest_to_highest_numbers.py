@@ -8,7 +8,9 @@ while True:
     try: 
         num = int(input("Enter a number: "))   # ask the user to input a number
         numbers.append(num)     # add the number to the list
+    
+    except ValueError:
+        print("Invalid input.")   # if input is not integer, print error message
         
-# if input is not integer, print error message
 # sort the numbers from lowest to highest
 # display the numbers from lowest to highest
