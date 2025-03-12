@@ -7,3 +7,5 @@ for i in range(10):
     while True:  # loop until valid input is received
         try: 
             num = int(input(f"Enter number {i + 1}: "))
+            numbers.append(num)  # add number to the list
+            break
