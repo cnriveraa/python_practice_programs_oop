@@ -14,6 +14,7 @@ while True:
         else:
             print("Unique")
             numbers.add(num)  # add unique number to the set
-            
-# if input is not integer, print error message
-# exit loop if invalid input
+
+    except ValueError:
+        print("Invalid input.")   # if input is not integer, print error message
+        break                     # exit loop if invalid input
