@@ -13,3 +13,6 @@ while True:
         break
 
 # find the average
+if numbers:
+    average = sum(numbers) / len(numbers)  # use sum() to calculate the total
+    print(f"The average is: {average}")
