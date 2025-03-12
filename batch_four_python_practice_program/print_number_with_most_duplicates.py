@@ -32,4 +32,6 @@ if numbers:
             max_count = count
             most_duplicates_num = num
 
-# display the result
+    # display the result
+    if max_count > 1:
+        print(f"The number with the most duplicates is {most_duplicates_num} with {max_count} duplicates.")
