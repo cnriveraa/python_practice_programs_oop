@@ -11,6 +11,5 @@ while True:
     
     except ValueError:
         print("Invalid input.")   # if input is not integer, print error message
-        
-# sort the numbers from lowest to highest
-# display the numbers from lowest to highest
+        numbers.sort()     # sort the numbers from lowest to highest
+        print("Numbers from lowest to highest: ", numbers)  # display the numbers from lowest to highest
