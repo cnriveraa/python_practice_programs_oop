@@ -4,6 +4,9 @@
 numbers = []
 
 # loop until invalid input is received
-# ask user to input a number
+while True:
+    try:
+        num = int(input("Enter a number: "))    # ask user to input a number
+        
 # error message if non-integer input
 # display lowest number
