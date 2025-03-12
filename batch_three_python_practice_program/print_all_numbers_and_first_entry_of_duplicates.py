@@ -17,3 +17,8 @@ seen = set()
 
 # display all numbers, showing only the first entry of duplicates
 print("Numbers (duplicates show only once):")
+
+for num in numbers:
+    if num not in seen:  # check if number has not seen before
+        print(num)
+        seen.add(num)   # add number to set of seen numbers
