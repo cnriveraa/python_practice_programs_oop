@@ -13,5 +13,8 @@ while True:
         break
 
 # check if any numbers were entered
+if numbers:
+    count_dict = {}    # initialize a dictionary to count occurrences of each number
+
 # find the number with the most duplicates
 # display the result
