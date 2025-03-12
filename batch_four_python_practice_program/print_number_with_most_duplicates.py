@@ -4,6 +4,14 @@
 numbers = []
 
 # ask the user to input numbers
+while True:
+    try:
+        num = int(input("Enter a number: "))
+        numbers.append(num)
+    except ValueError:
+        print("Invalid input.")
+        break
+
 # check if any numbers were entered
 # find the number with the most duplicates
 # display the result
