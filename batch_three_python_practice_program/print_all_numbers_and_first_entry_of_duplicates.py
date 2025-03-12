@@ -11,3 +11,6 @@ for i in range(10):
             break
         except ValueError:
             print("Invalid input.")  # handle invalid input
+
+# initialize an empty set to track seen numbers
+seen = set()
