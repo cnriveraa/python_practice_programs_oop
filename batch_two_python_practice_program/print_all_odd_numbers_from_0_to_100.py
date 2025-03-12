@@ -6,3 +6,5 @@ for i in range(0, 101, 1):
     # check if the number is odd
     if i % 2 != 0:
         print(i)
+
+# Note: 'I' should be 'i' to reference the variable correctly
