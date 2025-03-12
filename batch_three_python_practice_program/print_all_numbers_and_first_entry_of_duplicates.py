@@ -9,3 +9,5 @@ for i in range(10):
             num = int(input(f"Enter number {i + 1}: "))
             numbers.append(num)  # add number to the list
             break
+        except ValueError:
+            print("Invalid input.")  # handle invalid input
