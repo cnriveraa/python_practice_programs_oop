@@ -16,5 +16,12 @@ while True:
 if numbers:
     count_dict = {}    # initialize a dictionary to count occurrences of each number
 
+    # count entries of each number
+    for num in numbers:
+        if num in count_dict:
+            count_dict[num] += 1
+        else:
+            count_dict[num] = 1
+
 # find the number with the most duplicates
 # display the result
